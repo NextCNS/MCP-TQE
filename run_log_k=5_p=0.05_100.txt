@@ -1,0 +1,174 @@
+"/Volumes/GoogleDrive/My Drive/Shared/VN QC Team/Source code/MCP/venv/bin/python" "/Volumes/GoogleDrive/My Drive/Shared/VN QC Team/Source code/MCP/main.py"
+Reading...input/net10_0.05_100.txt
+Solver:  SA
+BQMC m, n, p1, p2:  10 100 100 2
+BQMC Min| Max | Min diagonal | Max diagonal :  -4 220 -884 2
+Preparing the QUBO using LINEAR formulation...
+--- 0.00047326087951660156 seconds ---
+--- 0.3158597946166992 seconds ---
+Processing the solutions...
+Writing samples to file  SA_LinearQUBO_samples_10_100_5_100.csv
+Number of samples:  100
+Satisfied BOTH constraints| Max cover:  71  min cover:  49 avg:  59.13  per. feasible:  99.0 %
+Satisfied FIRST constraint| Max cover:  71  min cover:  49 avg:  59.72  per. feasible:  100.0 %
+--- 0.09685111045837402 seconds ---
+{'Max': 71, 'Min': 49, 'average': 59.72, 'num_of_var': 157, 'non_zeros': 580, 'per_feasible': 100.0}
+Solver:  SA
+Extra variables:  42
+QEMC m, n, p1, p2:  10 100 100 2
+QEMC Min | Max | Min diagonal | Max diagonal :  -8 220 -884 8
+Preparing the QUBO using BINARY formulation...
+--- 0.0002200603485107422 seconds ---
+--- 0.29550600051879883 seconds ---
+Processing the solutions...
+Writing samples to file  SA_BinaryQUBO_samples_10_100_5_100.csv
+Number of samples:  100
+Satisfied BOTH constraints| Max cover:  70  min cover:  47 avg:  59.5  per. feasible:  100.0 %
+Satisfied FIRST constraint| Max cover:  70  min cover:  47 avg:  59.5  per. feasible:  100.0 %
+{'Max': 70, 'Min': 47, 'average': 59.5, 'num_of_var': 152, 'non_zeros': 534, 'per_feasible': 100.0}
+Solver:  QA
+BQMC m, n, p1, p2:  10 100 100 2
+BQMC Min| Max | Min diagonal | Max diagonal :  -4 220 -884 2
+Preparing the QUBO using LINEAR formulation...
+--- 0.0002281665802001953 seconds ---
+Preparing embedding & invoking D-Wave Sampler...
+Chain strength:  984
+--- 25.821483850479126 seconds ---
+Processing the solutions...
+Writing samples to file  QA_LinearQUBO_samples_10_100_5_1000.csv
+Number of samples:  1000
+#Sample(s) with chain breaks:  53 / 1000
+Satisfied FIRST constraint| Max cover:  70  min cover:  18 avg:  41.621  per. feasible:  80.3 %
+--- 1.9619581699371338 seconds ---
+{'Max': 70, 'Min': 18, 'average': 41.621, 'num_of_var': 157, 'non_zeros': 580, 'per_feasible': 80.3}
+Solver:  QA
+Extra variables:  42
+QEMC m, n, p1, p2:  10 100 100 2
+QEMC Min | Max | Min diagonal | Max diagonal :  -8 220 -884 8
+Preparing the QUBO using BINARY formulation...
+--- 0.00026679039001464844 seconds ---
+Preparing embedding & invoking D-Wave Sampler...
+Chain strength:  984
+--- 27.410512924194336 seconds ---
+Processing the solutions...
+Writing samples to file  QA_BinaryQUBO_samples_10_100_5_1000.csv
+Number of samples:  1000
+#Sample(s) with chain breaks:  37 / 1000
+Satisfied FIRST constraint| Max cover:  71  min cover:  19 avg:  41.83  per. feasible:  79.1 %
+{'Max': 71, 'Min': 19, 'average': 41.83, 'num_of_var': 152, 'non_zeros': 534, 'per_feasible': 79.1}
+Reading...input/net20_0.05_100.txt
+Solver:  SA
+BQMC m, n, p1, p2:  20 100 100 2
+BQMC Min| Max | Min diagonal | Max diagonal :  -4 216 -896 2
+Preparing the QUBO using LINEAR formulation...
+--- 0.0002887248992919922 seconds ---
+--- 0.391110897064209 seconds ---
+Processing the solutions...
+Writing samples to file  SA_LinearQUBO_samples_20_100_5_100.csv
+Number of samples:  100
+Satisfied BOTH constraints| Max cover:  47  min cover:  25 avg:  36.56  per. feasible:  99.0 %
+Satisfied FIRST constraint| Max cover:  47  min cover:  25 avg:  37.02  per. feasible:  100.0 %
+--- 0.13120388984680176 seconds ---
+{'Max': 47, 'Min': 25, 'average': 37.02, 'num_of_var': 182, 'non_zeros': 897, 'per_feasible': 100.0}
+Solver:  SA
+Extra variables:  51
+QEMC m, n, p1, p2:  20 100 100 2
+QEMC Min | Max | Min diagonal | Max diagonal :  -12 216 -896 18
+Preparing the QUBO using BINARY formulation...
+--- 0.0002880096435546875 seconds ---
+--- 0.36003780364990234 seconds ---
+Processing the solutions...
+Writing samples to file  SA_BinaryQUBO_samples_20_100_5_100.csv
+Number of samples:  100
+Satisfied BOTH constraints| Max cover:  48  min cover:  26 avg:  37.44  per. feasible:  100.0 %
+Satisfied FIRST constraint| Max cover:  48  min cover:  26 avg:  37.44  per. feasible:  100.0 %
+{'Max': 48, 'Min': 26, 'average': 37.44, 'num_of_var': 171, 'non_zeros': 773, 'per_feasible': 100.0}
+Solver:  QA
+BQMC m, n, p1, p2:  20 100 100 2
+BQMC Min| Max | Min diagonal | Max diagonal :  -4 216 -896 2
+Preparing the QUBO using LINEAR formulation...
+--- 0.0002970695495605469 seconds ---
+Preparing embedding & invoking D-Wave Sampler...
+Chain strength:  996
+--- 30.27000093460083 seconds ---
+Processing the solutions...
+Writing samples to file  QA_LinearQUBO_samples_20_100_5_1000.csv
+Number of samples:  1000
+#Sample(s) with chain breaks:  152 / 1000
+Satisfied FIRST constraint| Max cover:  49  min cover:  17 avg:  5.718  per. feasible:  16.7 %
+--- 2.038408041000366 seconds ---
+{'Max': 49, 'Min': 17, 'average': 5.718, 'num_of_var': 182, 'non_zeros': 897, 'per_feasible': 16.7}
+Solver:  QA
+Extra variables:  51
+QEMC m, n, p1, p2:  20 100 100 2
+QEMC Min | Max | Min diagonal | Max diagonal :  -12 216 -896 18
+Preparing the QUBO using BINARY formulation...
+--- 0.00029206275939941406 seconds ---
+Preparing embedding & invoking D-Wave Sampler...
+Chain strength:  996
+--- 12.663508176803589 seconds ---
+Processing the solutions...
+Writing samples to file  QA_BinaryQUBO_samples_20_100_5_1000.csv
+Number of samples:  1000
+#Sample(s) with chain breaks:  86 / 1000
+Satisfied FIRST constraint| Max cover:  51  min cover:  16 avg:  7.877  per. feasible:  22.8 %
+{'Max': 51, 'Min': 16, 'average': 7.877, 'num_of_var': 171, 'non_zeros': 773, 'per_feasible': 22.8}
+Reading...input/net30_0.05_100.txt
+Solver:  SA
+BQMC m, n, p1, p2:  30 100 100 2
+BQMC Min| Max | Min diagonal | Max diagonal :  -4 216 -898 2
+Preparing the QUBO using LINEAR formulation...
+--- 0.00031280517578125 seconds ---
+--- 0.395827054977417 seconds ---
+Processing the solutions...
+Writing samples to file  SA_LinearQUBO_samples_30_100_5_100.csv
+Number of samples:  100
+Satisfied BOTH constraints| Max cover:  39  min cover:  14 avg:  25.9  per. feasible:  100.0 %
+Satisfied FIRST constraint| Max cover:  39  min cover:  14 avg:  25.9  per. feasible:  100.0 %
+--- 0.16762495040893555 seconds ---
+{'Max': 39, 'Min': 14, 'average': 25.9, 'num_of_var': 185, 'non_zeros': 1126, 'per_feasible': 100.0}
+Solver:  SA
+Extra variables:  43
+QEMC m, n, p1, p2:  30 100 100 2
+QEMC Min | Max | Min diagonal | Max diagonal :  -16 216 -898 32
+Preparing the QUBO using BINARY formulation...
+--- 0.00031113624572753906 seconds ---
+--- 0.3624849319458008 seconds ---
+Processing the solutions...
+Writing samples to file  SA_BinaryQUBO_samples_30_100_5_100.csv
+Number of samples:  100
+Satisfied BOTH constraints| Max cover:  39  min cover:  14 avg:  26.6  per. feasible:  100.0 %
+Satisfied FIRST constraint| Max cover:  39  min cover:  14 avg:  26.6  per. feasible:  100.0 %
+{'Max': 39, 'Min': 14, 'average': 26.6, 'num_of_var': 173, 'non_zeros': 985, 'per_feasible': 100.0}
+Solver:  QA
+BQMC m, n, p1, p2:  30 100 100 2
+BQMC Min| Max | Min diagonal | Max diagonal :  -4 216 -898 2
+Preparing the QUBO using LINEAR formulation...
+--- 0.00043702125549316406 seconds ---
+Preparing embedding & invoking D-Wave Sampler...
+Chain strength:  998
+--- 40.48109316825867 seconds ---
+Processing the solutions...
+Writing samples to file  QA_LinearQUBO_samples_30_100_5_1000.csv
+Number of samples:  1000
+#Sample(s) with chain breaks:  248 / 1000
+Satisfied FIRST constraint| Max cover:  32  min cover:  12 avg:  2.227  per. feasible:  9.8 %
+--- 2.0443179607391357 seconds ---
+{'Max': 32, 'Min': 12, 'average': 2.227, 'num_of_var': 185, 'non_zeros': 1126, 'per_feasible': 9.8}
+Solver:  QA
+Extra variables:  43
+QEMC m, n, p1, p2:  30 100 100 2
+QEMC Min | Max | Min diagonal | Max diagonal :  -16 216 -898 32
+Preparing the QUBO using BINARY formulation...
+--- 0.0003609657287597656 seconds ---
+Preparing embedding & invoking D-Wave Sampler...
+Chain strength:  998
+--- 32.19088888168335 seconds ---
+Processing the solutions...
+Writing samples to file  QA_BinaryQUBO_samples_30_100_5_1000.csv
+Number of samples:  1000
+#Sample(s) with chain breaks:  192 / 1000
+Satisfied FIRST constraint| Max cover:  36  min cover:  14 avg:  1.914  per. feasible:  8.1 %
+{'Max': 36, 'Min': 14, 'average': 1.914, 'num_of_var': 173, 'non_zeros': 985, 'per_feasible': 8.1}
+
+Process finished with exit code 0

@@ -1,0 +1,5 @@
+Network,Weight,Samples,Solvers,Formulation,Max,Min,Average,Variables,Non-zeros,% Feasible
+net30_0.01_200.txt,0.01,200,SA,linear,53,28,42.02642276422764,441,2643,98.4
+net30_0.01_200.txt,0.01,200,SA,binary,52,24,42.26802030456853,441,2643,98.5
+net30_0.01_200.txt,0.01,200,QA,linear,34,0,3.782608695652174,441,2643,4.6
+net30_0.01_200.txt,0.01,200,QA,binary,36,0,5.566666666666666,441,2643,3.0

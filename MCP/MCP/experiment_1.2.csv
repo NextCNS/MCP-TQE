@@ -1,0 +1,9 @@
+Network,Nodes,Weight,Samples,Formulation,Variables,Non-zeros,Embed
+net30_0.001_200.txt,30,0.001,200,linear,433,2539,811
+net30_0.001_200.txt,30,0.001,200,binary,433,2539,687
+net30_0.01_200.txt,30,0.01,200,linear,437,2591,673
+net30_0.01_200.txt,30,0.01,200,binary,437,2591,721
+net30_0.05_200.txt,30,0.05,200,linear,524,4058,1153
+net30_0.05_200.txt,30,0.05,200,binary,497,3601,1066
+net30_0.1_200.txt,30,0.1,200,linear,692,8642,2434
+net30_0.1_200.txt,30,0.1,200,binary,575,5679,1751
